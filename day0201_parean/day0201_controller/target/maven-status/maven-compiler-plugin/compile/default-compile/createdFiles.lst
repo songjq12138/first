@@ -1,0 +1,9 @@
+com\itheima\config\securityConfig.class
+com\itheima\config\securityWebInit.class
+com\itheima\controller\RoleController.class
+com\itheima\controller\UserController.class
+com\itheima\controller\permissionController.class
+com\itheima\controller\productController.class
+com\itheima\config\webConfig.class
+com\itheima\config\SpringConfig.class
+com\itheima\config\SpringMvcConfig.class
