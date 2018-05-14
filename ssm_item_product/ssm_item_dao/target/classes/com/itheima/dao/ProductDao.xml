@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.ProductDao">
+	<select id="findAll" resultType="items">
+		select * from items
+	</select>
+	<select id="findById" resultType="items" parameterType="int">
+		select * from items where id=#{id}
+	</select>
+	
+	<select id="save" parameterType="items">
+		UPDATE items SET NAME=#{name},price=#{price},pic=#{pic},createtime=#{createtime},detail=#{detail} where id=#{id}
+	</select>
+</mapper>
