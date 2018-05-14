@@ -1,0 +1,5 @@
+com\itheima\domain\SysRole.class
+com\itheima\domain\SysPermission.class
+com\itheima\domain\product.class
+com\itheima\domain\SysUser.class
+com\itheima\domain\UserDomain.class

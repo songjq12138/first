@@ -1,0 +1,8 @@
+com\itheima\service\RoleService.class
+com\itheima\service\impl\ProductServiceImpl.class
+com\itheima\service\impl\RoleServiceImpl.class
+com\itheima\service\impl\userServiceImpl.class
+com\itheima\service\userService.class
+com\itheima\service\IProductService.class
+com\itheima\service\impl\permissionServiceImpl.class
+com\itheima\service\permissionService.class
