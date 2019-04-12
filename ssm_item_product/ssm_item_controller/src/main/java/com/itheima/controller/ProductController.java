@@ -29,6 +29,7 @@ public class ProductController {
 	public String findByAll(Model model) {
 		List<items> list = productService.findByAll();
 		model.addAttribute("list", list);
+		System.out.println();
 		return "itemList";
 	}
 
